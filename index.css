@@ -1,0 +1,44 @@
+table {      
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+table * {
+height:50px;
+width:50px;
+margin:0px;
+padding:0px;
+}
+
+.rowtitle {
+float:left;
+opacity:1;
+z-index:3;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.columntitle {
+z-index:1;
+position:fixed;
+}
+
+.content {
+position:fixed;
+left:60px;
+top:59px;
+width:255px;
+overflow-x:auto;
+display: block;
+}
+
+.Block{
+  background-color: blue;
+}
